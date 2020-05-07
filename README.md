@@ -1,7 +1,11 @@
 # Superpixel
+This work is a part of thesis titled as "SIMILARITY RATIO BASED ALGORITHMS TO GENERATE SAR SUPERPIXELS". For the full reference of similarity ratio and algorithms please refer the following journals:
+1. ["Similarity Ratio Based Adaptive Mahalanobis Distance Algorithm to Generate SAR Superpixels", Canadian Journal of Remote Sensing, Pages 569-581, Oct 2017](https://www.tandfonline.com/doi/abs/10.1080/07038992.2017.1393329)
+2. ["Segmentation of SAR images using similarity ratios for generating and clustering superpixels", Electronics Letter, IET, April 2016](https://ieeexplore.ieee.org/abstract/document/7451428)
+
+
 Superpixel segmentation as a preprocessing step is an oversegmentation technique that groups similar neighboring pixels into
-regularly organized segments with approximately the same size. As boundaries of the objects are important elements to be traced, superpixels should adhere well to
-the edges. This can only be achieved by an algorithm robust to speckle noise. 
+regularly organized segments with approximately the same size. As boundaries of the objects are important elements to be traced, superpixels should adhere well to the edges. This can only be achieved by an algorithm robust to speckle noise. 
 
 In this work, similarity ratio is first developed as a new metric  that is robust to
 speckle noise. Secondly, Mahalanobis distance is used instead of Euclidian so that
@@ -14,7 +18,7 @@ with an adaptive function.
 2. SRMP: similarity ratio with Mahalanobis distance
 3. SRAMP: Similarity Ratio with Mahalanobis distance with adaptive scheme
 
-## Similarity Ratio
+## Brief Introduction to Similarity Ratio
 For superpixelling in SAR images, A similarity ratio metric as a more robust approach is proposed.
 This metric has its basis on likelihood ratio. The likelihood ratio can be derived by assuming that two samples are drawn from
 a population.
@@ -23,10 +27,10 @@ Let say a sample X is N(μ1 , σ1^2), and another sample Y is N(μ2 ,σ2^2). Let
 Y. If these two samples are drawn from population Z whose random space is (x1,…, xm, y1, …, yn), then Z is N(μ , σ2
 ) as shown in Figure 1:
 
-![Figure_1](./Figures/Figure_1.PNG)
-
+<p align="center">
+![Figure_1](./Figures/Figure_1.PNG) 
 'Figure 1:' Illustration of Sample X, Y and Population Z
-
+</p>
 
 Moreover, if all random variables are assumed mutually independent then the
 likelihood functions for X, Y and Z would be as:
@@ -53,5 +57,5 @@ obtained as:
 
 ![Figure_6](./Figures/Figure_6.PNG)
 
-This ratio converges to unity from positive infinity as similarity between the means increases. Hence, it is a measure of the amount of deviation between the
-intensities of the superpixels, i.e., it is a measure of dissimilarity.
+This ratio converges to unity from positive infinity as similarity between the means increases. Hence, it is a measure of the amount of deviation between the intensities of the superpixels, i.e., it is a measure of dissimilarity.
+
