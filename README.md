@@ -28,6 +28,7 @@ Y. If these two samples are drawn from population Z whose random space is (x1,â€
 ) as shown in Figure 1:
 
 ![Figure_1](./Figures/Figure_1.PNG) 
+
 'Figure 1:' Illustration of Sample X, Y and Population Z
 
 Moreover, if all random variables are assumed mutually independent then the
