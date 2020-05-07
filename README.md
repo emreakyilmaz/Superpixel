@@ -27,10 +27,8 @@ Let say a sample X is N(μ1 , σ1^2), and another sample Y is N(μ2 ,σ2^2). Let
 Y. If these two samples are drawn from population Z whose random space is (x1,…, xm, y1, …, yn), then Z is N(μ , σ2
 ) as shown in Figure 1:
 
-<p align="center">
 ![Figure_1](./Figures/Figure_1.PNG) 
 'Figure 1:' Illustration of Sample X, Y and Population Z
-</p>
 
 Moreover, if all random variables are assumed mutually independent then the
 likelihood functions for X, Y and Z would be as:
