@@ -1,3 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Similarity Ratio with Euclidean distance (SREP)    %
+%													 %
+% Emre AKYILMAZ                                      %
+% 													 % 
+% This work is a part of thesis titled as 			 % 
+% "SIMILARITY RATIO BASED ALGORITHMS TO GENERATE SAR % 
+% SUPERPIXELS"										 % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [ww, imm, iwm, edges] = superpixelSREP(fileName, S, numberOfIterations)
 im = uint8(imread(fileName));
 N1 = size(im,1); 

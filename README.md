@@ -10,6 +10,7 @@ determining the relative importance of radiometric and geometric terms is replac
 with an adaptive function. 
 
 ## Algorithms
-SREP: similarity ratio with Euclidean distance 
-SRMP: similarity ratio with Mahalanobis distance
-SRAMP: Similarity Ratio with Mahalanobis distance with adaptive scheme
+1. SREP: similarity ratio with Euclidean distance 
+2. SRMP: similarity ratio with Mahalanobis distance
+3. SRAMP: Similarity Ratio with Mahalanobis distance with adaptive scheme
+
