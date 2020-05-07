@@ -1,11 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Similarity Ratio with Mahalanobis distance (SRMP)  %
-%													 %
+%                                                    %
 % Emre AKYILMAZ                                      %
-% 													 % 
-% This work is a part of thesis titled as 			 % 
+%                                                    % 
+% This work is a part of thesis titled as            % 
 % "SIMILARITY RATIO BASED ALGORITHMS TO GENERATE SAR % 
-% SUPERPIXELS"										 % 
+% SUPERPIXELS"                                       % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [ww, imm, iwm, edges, alphaMat] = superpixelSRMP(fileName, S, alpha, numberOfIterations)
